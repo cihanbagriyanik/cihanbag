@@ -1,7 +1,5 @@
 import React from "react";
 import { SkillsMainDiv, SkillsLi } from "./Style";
-import { FaHtml5, FaCss3Alt, FaJava } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
 
 const Skills = () => {
   return (
