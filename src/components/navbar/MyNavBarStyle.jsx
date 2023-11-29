@@ -36,8 +36,10 @@ export const DarkButton = styled.button`
   color: white;
   font-size: 45px;
   /* cursor: pointer; */
-
-  /* & :hover {
-    filter: brightness(100%);
+  /* -------------------------------------------------------------------------- */
+  /* 
+  & :hover {
+    filter: brightness(100%) !important;
   } */
+  /* -------------------------------------------------------------------------- */
 `;
