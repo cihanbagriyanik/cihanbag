@@ -17,7 +17,7 @@ const MyNavbar = () => {
       style={{ backgroundColor: "#050872" }}
     >
       <Logo>
-        <LogoA href="/home">
+        <LogoA href="/">
           {"<"}
           <span>Cihan</span>
           {"Bag/>"}
@@ -43,7 +43,7 @@ const MyNavbar = () => {
           <nav className="navigation__nav">
             <ul className="navigation__list">
               <li className="navigation__item">
-                <a href="/home" className="navigation__link">
+                <a href="/" className="navigation__link">
                   Home
                 </a>
               </li>
