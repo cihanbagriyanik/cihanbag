@@ -1,6 +1,7 @@
 import React from "react";
 import { SlEnvolope } from "react-icons/sl";
 import { FaPhoneAlt } from "react-icons/fa";
+import foto from "../../assets/img/LinkedInFoto.png"
 
 import {
   HomeMainDiv,
@@ -39,7 +40,7 @@ const Home = () => {
         </TopTextPDiv>
 
         <TopImg>
-          <img src="" alt="" />
+          <img src={foto} alt="" />
         </TopImg>
       </HomeTopTextDiv>
 
