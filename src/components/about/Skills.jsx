@@ -1,6 +1,5 @@
 import React from "react";
 import { SkillsMainDiv, SkillsLi, LogoUl } from "./Style";
-import render from "../../assets/img/render.svg";
 
 const Skills = () => {
   return (
