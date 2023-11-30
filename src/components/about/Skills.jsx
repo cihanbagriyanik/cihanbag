@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <SkillsMainDiv>
       <h1 className="mb-4 fw-bold">My Skills</h1>
-      <div>
+      <div className=" m-4">
         <LogoUl>
           <SkillsLi>
             <a

@@ -79,9 +79,10 @@ export const AboutMeDownP = styled.p`
 export const SkillsMainDiv = styled.div`
   background-color: lightgray;
   padding: 3rem 0;
-  text-align: center;
+
   display: flex;
   justify-content: center;
+
   flex-wrap: wrap;
 
   /* width: 100vw;
@@ -90,6 +91,10 @@ export const SkillsMainDiv = styled.div`
 
 export const LogoUl = styled.ul`
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-left: 0.5rem;
   gap: 1.3rem;
   flex-wrap: wrap;
 `;
