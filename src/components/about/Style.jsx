@@ -78,13 +78,38 @@ export const AboutMeDownP = styled.p`
 //! MySkills
 export const SkillsMainDiv = styled.div`
   background-color: lightgray;
-  font-size: 1.1rem;
-  margin: 5rem;
-  padding: 1rem 2rem;
-  margin: auto;
+  padding: 3rem 0;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  /* width: 100vw;
+  overflow: hidden; */
+`;
+
+export const LogoUl = styled.ul`
+  display: flex;
+  gap: 1.3rem;
+  flex-wrap: wrap;
 `;
 
 export const SkillsLi = styled.li`
   list-style: none;
+  margin-top: 1.3rem;
+  & img {
+    width: 5rem;
+    height: 5rem;
+
+    /* animation: slide 10s infinite linear ; */
+  }
+  /* 
+  @keyframes scrollText {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+} */
 `;
