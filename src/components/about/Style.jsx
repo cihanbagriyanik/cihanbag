@@ -96,7 +96,8 @@ export const LogoUl = styled.ul`
   margin: auto;
   padding-left: 0.5rem;
   gap: 1.3rem;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  animation: slide 5s infinite linear alternate;
 `;
 
 export const SkillsLi = styled.li`
@@ -105,16 +106,41 @@ export const SkillsLi = styled.li`
   & img {
     width: 5rem;
     height: 5rem;
+  }
 
-    /* animation: slide 10s infinite linear ; */
+  @keyframes slide {
+    0% {
+      transform: translateX(0px);
+    }
+    10% {
+      transform: translateX(-250px);
+    }
+    20% {
+      transform: translateX(-250px);
+    }
+    30% {
+      transform: translateX(-500px);
+    }
+    40% {
+      transform: translateX(-500px);
+    }
+    50% {
+      transform: translateX(-750px);
+    }
+    60% {
+      transform: translateX(-750px);
+    }
+    70% {
+      transform: translateX(-1000px);
+    }
+    80% {
+      transform: translateX(-1000px);
+    }
+    90% {
+      transform: translateX(-1250px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
   }
-  /* 
-  @keyframes scrollText {
-  from {
-    transform: translateX(0%);
-  }
-  to {
-    transform: translateX(-50%);
-  }
-} */
 `;
