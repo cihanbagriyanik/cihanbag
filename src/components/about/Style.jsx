@@ -79,68 +79,58 @@ export const AboutMeDownP = styled.p`
 export const SkillsMainDiv = styled.div`
   background-color: lightgray;
   padding: 3rem 0;
-
   display: flex;
   justify-content: center;
-
   flex-wrap: wrap;
+  width: 100%;
 
-  /* width: 100vw;
-  overflow: hidden; */
 `;
 
 export const LogoUl = styled.ul`
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  margin: auto;
-  padding-left: 0.5rem;
-  gap: 1.3rem;
-  /* flex-wrap: wrap; */
-  animation: slide 5s infinite linear alternate;
+  margin: 0;
+  gap: 1.5rem;
+  width: 100%;
+
+  overflow: hidden;
+
+  animation: scroll 30s infinite linear;
+  white-space: nowrap;
+
+  box-sizing: padding-box;
 `;
 
 export const SkillsLi = styled.li`
   list-style: none;
-  margin-top: 1.3rem;
+  margin-top: 1.5rem;
+  display: inline-block;
+
   & img {
     width: 5rem;
     height: 5rem;
   }
 
-  @keyframes slide {
+  &:not(:last-child) {
+    margin-right: 1.5rem;
+  }
+
+  &:first-child {
+    margin-left: 1.5rem;
+  }
+
+  @keyframes scroll {
     0% {
-      transform: translateX(0px);
+      transform: translateX(100%);
     }
-    10% {
-      transform: translateX(-250px);
-    }
-    20% {
-      transform: translateX(-250px);
-    }
-    30% {
-      transform: translateX(-500px);
-    }
-    40% {
-      transform: translateX(-500px);
-    }
-    50% {
-      transform: translateX(-750px);
-    }
-    60% {
-      transform: translateX(-750px);
-    }
-    70% {
-      transform: translateX(-1000px);
-    }
-    80% {
-      transform: translateX(-1000px);
-    }
-    90% {
-      transform: translateX(-1250px);
-    }
+    /* 50% {
+      transform: translateX(0%);
+    } */
     100% {
-      transform: translateX(0px);
+      transform: translateX(-100%);
     }
   }
 `;
+
+
