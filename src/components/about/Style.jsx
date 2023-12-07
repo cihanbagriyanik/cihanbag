@@ -83,46 +83,50 @@ export const SkillsMainDiv = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
-
+  overflow: hidden;
 `;
 
 export const LogoUl = styled.ul`
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
   margin: 0;
-  gap: 1.5rem;
+  /* gap: 1.5rem; */
+  padding: 0;
   width: 100%;
 
   overflow: hidden;
 
-  animation: scroll 30s infinite linear;
   white-space: nowrap;
 
-  box-sizing: padding-box;
-`;
+  position: relative;
+  animation: scroll 5s infinite 3s linear;
+  `;
 
 export const SkillsLi = styled.li`
   list-style: none;
   margin-top: 1.5rem;
   display: inline-block;
-
+  
+  left: 0;
+  bottom: 0;
+  
   & img {
     width: 5rem;
     height: 5rem;
   }
-
+/* 
   &:not(:last-child) {
     margin-right: 1.5rem;
   }
 
   &:first-child {
     margin-left: 1.5rem;
-  }
+  } */
 
   @keyframes scroll {
     0% {
-      transform: translateX(100%);
+      transform: translateX(50%);
     }
     /* 50% {
       transform: translateX(0%);
@@ -132,5 +136,3 @@ export const SkillsLi = styled.li`
     }
   }
 `;
-
-
