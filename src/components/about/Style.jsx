@@ -86,53 +86,107 @@ export const SkillsMainDiv = styled.div`
   overflow: hidden;
 `;
 
+// export const LogoUl = styled.ul`
+//   /* display: flex;
+//   justify-content: space-between;
+//   align-items: center; */
+//   margin: 0;
+//   /* gap: 1.5rem; */
+//   padding: 0;
+//   width: 100%;
+
+//   overflow: hidden;
+
+//   white-space: nowrap;
+
+//   position: relative;
+//   animation: scroll 5s infinite 3s linear;
+//   `;
+
+// export const SkillsLi = styled.li`
+//   list-style: none;
+//   margin-top: 1.5rem;
+//   display: inline-block;
+
+//   left: 0;
+//   bottom: 0;
+
+//   & img {
+//     width: 5rem;
+//     height: 5rem;
+//   }
+// /*
+//   &:not(:last-child) {
+//     margin-right: 1.5rem;
+//   }
+
+//   &:first-child {
+//     margin-left: 1.5rem;
+//   } */
+
+//   @keyframes scroll {
+//     0% {
+//       transform: translateX(50%);
+//     }
+//     /* 50% {
+//       transform: translateX(0%);
+//     } */
+//     100% {
+//       transform: translateX(-100%);
+//     }
+//   }
+// `;
+
 export const LogoUl = styled.ul`
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
-  margin: 0;
-  /* gap: 1.5rem; */
+  list-style: none;
   padding: 0;
-  width: 100%;
-
   overflow: hidden;
-
   white-space: nowrap;
+  animation: scroll 10s infinite linear;
 
-  position: relative;
-  animation: scroll 5s infinite 3s linear;
-  `;
+  @media screen and (min-width: 0px) {
+    @keyframes scroll {
+      0% {
+        transform: translateX(1500px);
+      }
+
+      100% {
+        transform: translateX(-1500px);
+      }
+    }
+  }
+  @media screen and (min-width: 892px) {
+    @keyframes scroll {
+      0% {
+        transform: translateX(1100px);
+      }
+
+      100% {
+        transform: translateX(-1100px);
+      }
+    }
+  }
+  @media screen and (min-width: 1369px) {
+    @keyframes scroll {
+      0% {
+        transform: translateX(23%);
+      }
+
+      100% {
+        transform: translateX(-23%);
+      }
+    }
+  }
+`;
 
 export const SkillsLi = styled.li`
   list-style: none;
   margin-top: 1.5rem;
+  margin-right: 10px;
+  /* margin-right: 1.5rem; */
   display: inline-block;
-  
-  left: 0;
-  bottom: 0;
-  
   & img {
     width: 5rem;
     height: 5rem;
-  }
-/* 
-  &:not(:last-child) {
-    margin-right: 1.5rem;
-  }
-
-  &:first-child {
-    margin-left: 1.5rem;
-  } */
-
-  @keyframes scroll {
-    0% {
-      transform: translateX(50%);
-    }
-    /* 50% {
-      transform: translateX(0%);
-    } */
-    100% {
-      transform: translateX(-100%);
-    }
   }
 `;
