@@ -1,15 +1,16 @@
-import { DarkButton, Logo, LogoA } from "./MyNavBarStyle";
+import { Logo, LogoA } from "./MyNavBarStyle";
 
-import { useState } from "react";
+import DarkModusSwitch from "../navbar/DarkModusSwitch";
+
+// import { useState } from "react";
 
 import "./_navigation.scss";
 import "./_mixins.scss";
 
-import { IoIosSunny } from "react-icons/io";
-import { FaMoon } from "react-icons/fa6";
+
 
 const MyNavbar = () => {
-  const [day, setDay] = useState(false);
+  // const [day, setDay] = useState(false);
 
   return (
     <div
@@ -27,12 +28,12 @@ const MyNavbar = () => {
           {"Bag/>"}
         </LogoA>
       </Logo>
-
+      
       <div>
-        <div>
-          <DarkButton onClick={() => setDay((i) => !i)}>
-            {day ? <IoIosSunny size={35} /> : <FaMoon size={35} />}
-          </DarkButton>
+        <div
+          style={{ marginRight: "9rem", display: "flex", alignItems: "center" }}
+        >
+          <DarkModusSwitch />
         </div>
         <div className="navigation">
           <input

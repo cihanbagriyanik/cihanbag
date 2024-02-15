@@ -27,18 +27,3 @@ export const LogoA = styled.a`
     color: white;
   }
 `;
-
-export const DarkButton = styled.button`
-  width: 70px;
-  height: 50px;
-  background: none;
-  border: none;
-  color: grey;
-  font-size: 45px;
-  cursor: pointer;
-  /* -------------------------------------------------------------------------- */
-  & :hover {
-    color: white;
-  }
-  /* -------------------------------------------------------------------------- */
-`;

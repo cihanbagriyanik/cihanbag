@@ -3,6 +3,7 @@
 .navigation {
   position: relative;
   font-family: "Girassol", serif;
+ 
 
   &__checkbox {
     display: none;
@@ -10,8 +11,8 @@
 
   &__button {
     background-color: White;
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 3.2rem;
+    width: 3.2rem;
     position: fixed;
     top: 1.2rem;
     right: 5rem;
@@ -33,8 +34,10 @@
   }
 
   &__background {
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 3.2rem;
+    width: 3.2rem;
+    // height: 2.5rem;
+    // width: 2.5rem;
     border-radius: 50%;
     position: fixed;
     top: 1.2rem;
@@ -127,7 +130,7 @@
   //ICON
   &__icon {
     position: relative;
-    margin-top: 1.2rem;
+    margin-top: 1.6rem;
 
     &,
     &::before,
