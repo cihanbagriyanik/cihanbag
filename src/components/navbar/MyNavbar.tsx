@@ -2,16 +2,10 @@ import { Logo, LogoA } from "./MyNavBarStyle";
 
 import DarkModusSwitch from "../navbar/DarkModusSwitch";
 
-// import { useState } from "react";
-
 import "./_navigation.scss";
 import "./_mixins.scss";
 
-
-
 const MyNavbar = () => {
-  // const [day, setDay] = useState(false);
-
   return (
     <div
       style={{
@@ -28,7 +22,7 @@ const MyNavbar = () => {
           {"Bag/>"}
         </LogoA>
       </Logo>
-      
+
       <div>
         <div
           style={{ marginRight: "9rem", display: "flex", alignItems: "center" }}

@@ -1,4 +1,5 @@
 import React from "react";
+import "../App.css";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -14,14 +15,16 @@ const AppRouter: React.FC = () => {
   return (
     <Router>
       <MyNavbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="services" element={<Services />} />
-        <Route path="portfolio" element={<Portfolio />} />
-        <Route path="contact" element={<Contact />} />
-      </Routes>
+      <div className="routes-container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="services" element={<Services />} />
+          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="contact" element={<Contact />} />
+        </Routes>
       <Footer />
+      </div>
     </Router>
   );
 };
