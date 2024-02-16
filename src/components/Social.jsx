@@ -2,8 +2,8 @@ import { Container, List, ListItem, ListItemText } from "@mui/material";
 
 const Social = () => {
   return (
-    <Container>
-      <List>
+    <Container >
+      <List sx={{ color: "white" }}>
         <ListItem
           component="a"
           href="https://www.linkedin.com/in/bagriyanik/"

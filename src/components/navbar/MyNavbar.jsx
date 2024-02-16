@@ -1,6 +1,6 @@
 import { Logo, LogoA } from "./MyNavBarStyle";
 
-import DarkModusSwitch from "../navbar/DarkModusSwitch";
+import DarkModusSwitch from "./DarkModusSwitch";
 
 import "./_navigation.scss";
 import "./_mixins.scss";

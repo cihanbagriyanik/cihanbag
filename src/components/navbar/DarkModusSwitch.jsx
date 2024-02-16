@@ -1,13 +1,13 @@
 
 import clsx from "clsx";
 import { styled } from "@mui/system";
-import { useSwitch, UseSwitchParameters } from "@mui/base/useSwitch";
+import { useSwitch } from "@mui/base/useSwitch";
 
 export default function UseSwitchesCustom() {
   return <MUISwitch defaultChecked />;
 }
 
-function MUISwitch(props: UseSwitchParameters) {
+function MUISwitch(props) {
   const { getInputProps, checked, disabled, focusVisible } = useSwitch(props);
 
   const stateClasses = {
@@ -101,7 +101,7 @@ const SwitchThumb = styled("span")`
 `;
 
 const SwitchTrack = styled("span")(
-  ({ theme }: any) => `
+  ({ theme }) => `
   background-color: ${theme.palette.mode === "dark" ? grey[100] : grey[100]};
   border-radius: 4px;
   width: 100%;
