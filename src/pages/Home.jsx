@@ -1,10 +1,23 @@
-import { Avatar, Box, Link, Typography } from "@mui/material";
+import { Avatar, Box, Link, Typography, styled } from "@mui/material";
 import foto from "../assets/LinkedInFoto.png";
 import { SlEnvolope } from "react-icons/sl";
 import { FaPhoneAlt } from "react-icons/fa";
 import AboutMe from "../components/AboutMe";
 import Skills from "../components/Skills";
 import MyExperience from "../components/MyExperience";
+
+const StyledLinkTheme = {
+  display: "flex",
+  alignItems: "center",
+  gap: "0.5rem",
+  textDecoration: "none",
+  color: "black",
+  ":hover": { color: "blue" },
+};
+
+const StyledLink = styled(Link)(({ theme }) => ({
+  ...StyledLinkTheme,
+}));
 
 const Home = () => {
   return (
@@ -53,28 +66,13 @@ const Home = () => {
               }}
               gap={1}
             >
-              <Link
-                href="mailto:cihanbagriyanikde@gmail.com"
-                sx={{
-                  textDecoration: "none",
-                  color: "black",
-                  ":hover": { color: "blue" },
-                }}
-              >
+              <StyledLink href="mailto:cihanbagriyanikde@gmail.com">
                 <SlEnvolope /> cihanbagriyanikde@gmail.com
-              </Link>
+              </StyledLink>
 
-              <Link
-                className=""
-                href="tel:+4917622791071"
-                sx={{
-                  textDecoration: "none",
-                  color: "black",
-                  ":hover": { color: "blue" },
-                }}
-              >
+              <StyledLink href="tel:+4917622791071">
                 <FaPhoneAlt /> +49 176 2279 10 71
-              </Link>
+              </StyledLink>
             </Box>
           </Box>
 
