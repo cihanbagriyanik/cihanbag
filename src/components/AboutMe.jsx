@@ -2,19 +2,41 @@ import { Box, Container, Typography } from "@mui/material";
 
 const AboutMe = () => {
   return (
-    <Container sx={{marginTop:"3rem"}}>
+    <Container sx={{ marginTop: "3rem" }}>
       <Box>
-        <Typography>About Me</Typography>
-        <Typography>
+        <Typography
+          sx={{ fontWeight: "bold" }}
+          variant="h6"
+          fontFamily={"girassol"}
+          color={"#0B58BE"}
+        >
+          About Me
+        </Typography>
+        <Typography
+          sx={{ fontWeight: "bold", letterSpacing: "1px" }}
+          fontFamily={"girassol"}
+          variant="h6"
+          component={"h1"}
+        >
           I am an enthusiastic web developer based in Munich, with a rich
           experience of in frontend & backend web design.
         </Typography>
-        <Box className="row">
-          <Typography className="col-6">
+        <Box className="row" sx={{ marginTop: "0.8rem", marginLeft: "0.8rem" }}>
+          <Typography
+            className="col-6"
+            fontFamily={"girassol"}
+            color={"#0B58BE"}
+            variant="h5"
+            sx={{ fontWeight: "bold", marginTop: "0.8rem" }}
+          >
             I design professional & beautiful websites
           </Typography>
 
-          <Typography className="col-6">
+          <Typography
+            className="col-6"
+            fontFamily={"girassol"}
+            sx={{ fontSize: "1.2rem", marginTop: "1rem", marginLeft: "1rem" }}
+          >
             With years of experience in graphic and web design I have mastered
             the skills of understanding client requirements according to the
             latest trends. I have worked with businesses from different niches

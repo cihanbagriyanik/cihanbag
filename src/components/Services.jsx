@@ -1,18 +1,38 @@
-import { Container, List, ListItem, ListItemText } from "@mui/material";
+import { Container, List, ListItem, ListItemText, styled } from "@mui/material";
+
+import ForwardIcon from "@mui/icons-material/Forward";
+
+import { listItemTheme } from "./style/footerListItemTheme";
+
+const StyledListItem = styled(ListItem)(({ theme }) => ({
+  ...listItemTheme,
+}));
 
 const Services = () => {
   return (
     <Container>
+      <ListItemText
+        sx={{ my: 0 }}
+        primary="Services"
+        primaryTypographyProps={{
+          fontSize: 20,
+          fontWeight: "medium",
+          letterSpacing: 0,
+        }}
+      />
       <List>
-        <ListItem component="a" href="/services" target="_blank" disablePadding>
+        <StyledListItem component="a" href="/services">
+          <ForwardIcon />
           <ListItemText primary="Frontend Development" />
-        </ListItem>
-        <ListItem component="a" href="/services" target="_blank" disablePadding>
+        </StyledListItem>
+        <StyledListItem component="a" href="/services">
+          <ForwardIcon />
           <ListItemText primary="Backend Development" />
-        </ListItem>
-        <ListItem component="a" href="/services" target="_blank" disablePadding>
+        </StyledListItem>
+        <StyledListItem component="a" href="/services">
+          <ForwardIcon />
           <ListItemText primary="Responsive Design" />
-        </ListItem>
+        </StyledListItem>
       </List>
     </Container>
   );

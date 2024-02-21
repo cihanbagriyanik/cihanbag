@@ -1,41 +1,61 @@
-import { Container, List, ListItem, ListItemText } from "@mui/material";
+import { Container, List, ListItem, ListItemText, styled } from "@mui/material";
+
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import FacebookIcon from "@mui/icons-material/Facebook";
+
+import { listItemTheme } from "./style/footerListItemTheme";
+
+const StyledListItem = styled(ListItem)(({ theme }) => ({
+  ...listItemTheme,
+}));
 
 const Social = () => {
   return (
-    <Container >
-      <List sx={{ color: "white" }}>
-        <ListItem
-          component="a"
+    <Container>
+      <ListItemText
+        sx={{ my: 0 }}
+        primary="Social"
+        primaryTypographyProps={{
+          fontSize: 20,
+          fontWeight: "medium",
+          letterSpacing: 0,
+        }}
+      />
+      <List>
+        <StyledListItem
           href="https://www.linkedin.com/in/bagriyanik/"
+          component="a"
           target="_blank"
-          disablePadding
         >
+          <LinkedInIcon />
           <ListItemText primary="Linkedin" />
-        </ListItem>
-        <ListItem
-          component="a"
+        </StyledListItem>
+        <StyledListItem
           href="https://github.com/cihanbagriyanik"
+          component="a"
           target="_blank"
-          disablePadding
         >
+          <GitHubIcon />
           <ListItemText primary="GitHub" />
-        </ListItem>
-        <ListItem
-          component="a"
+        </StyledListItem>
+        <StyledListItem
           href="https://www.instagram.com/cihanbagriyanik/"
-          target="_blank"
-          disablePadding
-        >
-          <ListItemText primary="Instagram" />
-        </ListItem>
-        <ListItem
           component="a"
-          href="https://www.facebook.com/profile.php?id=100017748019463"
           target="_blank"
-          disablePadding
         >
+          <InstagramIcon />
+          <ListItemText primary="Instagram" />
+        </StyledListItem>
+        {/* <StyledListItem
+          href="https://www.facebook.com/profile.php?id=100017748019463"
+          component="a"
+          target="_blank"
+        >
+          <FacebookIcon />
           <ListItemText primary="Facebook" />
-        </ListItem>
+        </StyledListItem> */}
       </List>
     </Container>
   );

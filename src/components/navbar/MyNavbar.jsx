@@ -27,7 +27,7 @@ const MyNavbar = () => {
         <div
           style={{ marginRight: "9rem", display: "flex", alignItems: "center" }}
         >
-          <DarkModusSwitch />
+          {/* <DarkModusSwitch /> */}
         </div>
         <div className="navigation">
           <input
@@ -46,11 +46,11 @@ const MyNavbar = () => {
                   Home
                 </a>
               </li>
-              <li className="navigation__item">
+              {/* <li className="navigation__item">
                 <a href="/about" className="navigation__link">
                   About
                 </a>
-              </li>
+              </li> */}
               <li className="navigation__item">
                 <a href="/portfolio" className="navigation__link">
                   Portfolio

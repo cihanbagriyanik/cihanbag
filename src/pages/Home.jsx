@@ -1,27 +1,78 @@
-import { Avatar, Box, Container, Link, Typography } from "@mui/material";
+import { Avatar, Box, Link, Typography } from "@mui/material";
 import foto from "../assets/LinkedInFoto.png";
 import { SlEnvolope } from "react-icons/sl";
 import { FaPhoneAlt } from "react-icons/fa";
 import AboutMe from "../components/AboutMe";
+import Skills from "../components/Skills";
+import MyExperience from "../components/MyExperience";
 
 const Home = () => {
   return (
-    <Container>
+    <Box>
       <Box>
-        <Box sx={{display:"flex", justifyContent:"space-around", alignItems:"center", paddingTop:"3rem"}}>
+        <Box
+          sx={{
+            // border: "1px solid red",
+            display: "flex",
+            justifyContent: "space-around",
+            alignItems: "center",
+            paddingTop: "3rem",
+          }}
+        >
           <Box>
-            <Typography className="  ">
-              <span>Hello,</span> my name is
+            <Typography fontFamily={"girassol"} fontSize={25}>
+              <span
+                style={{
+                  borderBottom: "2px solid black",
+                  paddingBottom: "3px",
+                }}
+              >
+                Hello,
+              </span>{" "}
+              my name is
             </Typography>
 
-            <Typography>Cihan Bagriyanik</Typography>
-            <Typography>Web Developer</Typography>
+            <Typography fontFamily={"girassol"} variant="h3" component={"h1"}>
+              Cihan Bagriyanik
+            </Typography>
+            <Typography
+              fontFamily={"girassol"}
+              variant="h4"
+              component={"h1"}
+              color={"grey"}
+              sx={{ fontStyle: "italic" }}
+            >
+              Web Developer
+            </Typography>
 
-            <Box>
-              <Link href="mailto:cihanbagriyanikde@gmail.com">
+            <Box
+              sx={{
+                display: "flex",
+                flexDirection: "column",
+                marginTop: "3.5rem",
+              }}
+              gap={1}
+            >
+              <Link
+                href="mailto:cihanbagriyanikde@gmail.com"
+                sx={{
+                  textDecoration: "none",
+                  color: "black",
+                  ":hover": { color: "blue" },
+                }}
+              >
                 <SlEnvolope /> cihanbagriyanikde@gmail.com
               </Link>
-              <Link className="" href="tel:+4917622791071">
+
+              <Link
+                className=""
+                href="tel:+4917622791071"
+                sx={{
+                  textDecoration: "none",
+                  color: "black",
+                  ":hover": { color: "blue" },
+                }}
+              >
                 <FaPhoneAlt /> +49 176 2279 10 71
               </Link>
             </Box>
@@ -39,11 +90,11 @@ const Home = () => {
 
         <AboutMe />
 
-        {/* <Skills /> */}
+        <Skills />
 
-        {/* <MyExperience /> */}
+        <MyExperience />
       </Box>
-    </Container>
+    </Box>
   );
 };
 
