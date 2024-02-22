@@ -235,14 +235,16 @@ export const skillsData = [
   //   },
 ];
 
-export const portfolio = [
+export const portfolioData = [
   {
     id: 1,
     projectName: "Blog App",
     LibrariesAndTech:
       "React.js | TypeScript | React-Router |  Material-UI | React-Redux | Axios | Redux-Persist | Toastify | Formik-Yup | Vite",
-    img: "", //!-------------------------------------
-    webSite: "blog-app-cihan.vercel.app/",
+    img: "https://github.com/cihanbagriyanik/cihanbag/blob/main/src/assets/BlogApp.png?raw=true",
+    description:
+      "This web application reflects my interest in modern web development. It's built with React, TypeScript, and Vite, providing users with a seamless blogging experience. The interface is designed using Material-UI, ensuring an attractive and responsive design. Efficient state management is achieved with Redux Toolkit, enabling smooth operation whether users are creating, editing, or deleting posts. Formik and Yup ensure reliable form handling, while Axios facilitates smooth API interactions. This project serves as a showcase of modern web development techniques, demonstrating the integration of various tools to create a feature-rich and performant web application.",
+    webSite: "https://blog-app-cihan.vercel.app/",
     gitGubLink:
       "https://github.com/cihanbagriyanik/Milestone-_BlogApp_react-ts-vite-mui-redux-formik-yup",
     readme:
@@ -253,8 +255,10 @@ export const portfolio = [
     projectName: "Stock Management App",
     LibrariesAndTech:
       "React.js | React-Router |  Material-UI | React-Redux | Axios | Redux-Persist | Tremor | Toastify | Formik-Yup | Vite",
-    img: "", //!-------------------------------------
-    webSite: "stock-management-app-cihan.vercel.app/",
+    img: "https://github.com/cihanbagriyanik/cihanbag/blob/main/src/assets/StockApp.png?raw=true",
+    description:
+      "This online single-page web application empowers users to efficiently manage orders and inventory. With features to get, add, edit, or delete products, firms, categories, brands, sales, and purchases, users can seamlessly handle various aspects of stock management. The application consumes APIs to ensure real-time data synchronization and accuracy. Technical Stack: HTML, CSS, JavaScript, React, Redux, Formik, Yup, Material UI.",
+    webSite: "https://stock-management-app-cihan.vercel.app/",
     gitGubLink:
       "https://github.com/cihanbagriyanik/Stock_Management_App_react-redux-formik-yup",
     readme:
@@ -265,8 +269,10 @@ export const portfolio = [
     projectName: "Movie App(IMDb-D)",
     LibrariesAndTech:
       "React.js | React-Router | React-Dom | Hooks | Firebase | Auth | Axios | Tailwind | Toastify ",
-    img: "", //!-------------------------------------
-    webSite: "movie-app-imdb-d.netlify.app/",
+    img: "https://github.com/cihanbagriyanik/cihanbag/blob/main/src/assets/MovieApp.png?raw=true",
+    description:
+      "In this project, the aim was to display cinema posters by using the TMDB API. There is a search feature for keywords. Upon logging in, movie synopsis, release date, total vote and rating are available. Libraries used: React, React router, Tailwind, Axios and Firebase.",
+    webSite: "https://movie-app-imdb-d.netlify.app/",
     gitGubLink:
       "https://github.com/cihanbagriyanik/Movie_App-IMDB-D-_react-tailwind-firebase-toastify",
     readme:
@@ -277,8 +283,10 @@ export const portfolio = [
     projectName: "Recipe App",
     LibrariesAndTech:
       "React.js | React-Router | React-Dom | Hooks | Context | Axios | Styled Components | React-Bootstrap ",
-    img: "", //!-------------------------------------
-    webSite: "recipeapp-cihan.netlify.app",
+    img: "https://github.com/cihanbagriyanik/cihanbag/blob/main/src/assets/RecipeApp.png?raw=true",
+    description:
+      "This project is a recipe application developed using React, featuring a combination of React Router, Context API, and Styled Components. Users can explore a variety of recipes, each complete with details like title, category, and ingredients. Additionally, users have access to comprehensive recipe information, including preparation time, cooking steps, and required ingredients. The app enables users to mark their favorite recipes for easy access and includes a search functionality for quick navigation and filtering. Designed with responsiveness in mind, the project ensures a seamless user experience across different devices and screen sizes. This project serves as an excellent learning resource for those interested in React development, offering practical examples of key concepts like React Router, Context API, and Styled Components.",
+    webSite: "https://recipeapp-cihan.netlify.app/",
     gitGubLink:
       "https://github.com/cihanbagriyanik/Recipe_App_react-router-context-styledComponents",
     readme:
@@ -286,11 +294,13 @@ export const portfolio = [
   },
   {
     id: 5,
-    projectName: "Shopping Card",
+    projectName: "Shopping Cart",
     LibrariesAndTech:
       "React.js  | React-Router | React-Dom | Hooks | Axios | Mock API | Bootstrap",
-    img: "", //!-------------------------------------
-    webSite: "shoppingcard-cihan.netlify.app",
+    img: "https://github.com/cihanbagriyanik/cihanbag/blob/main/src/assets/ShoppingCartApp.png?raw=true",
+    description:
+      "This project is a recipe application developed with React, incorporating React Router, Context API, and Styled Components. Users can explore a diverse range of recipes, each with detailed information including title, category, and ingredients. Additionally, users have access to comprehensive recipe details such as preparation time, cooking steps, and required ingredients. The application allows users to mark their favorite recipes for convenient access and offers a search feature for streamlined navigation and filtering. With a focus on responsive design, the project ensures a smooth user experience across various devices and screen sizes. Serving as a valuable resource for learning React development, the project provides practical examples of key concepts like React Router, Context API, and Styled Components.",
+    webSite: "https://shoppingcart-cihan.netlify.app/",
     gitGubLink:
       "https://github.com/cihanbagriyanik/Shopping_Card_react-axios-hooks-router-mockapi",
     readme:
@@ -300,8 +310,10 @@ export const portfolio = [
     id: 6,
     projectName: "ToDo App",
     LibrariesAndTech: "React.js | React-Dom | Local Storage | UUID | Bootstarp",
-    img: "", //!-------------------------------------
-    webSite: "todoapp-cihan.netlify.app",
+    img: "https://github.com/cihanbagriyanik/cihanbag/blob/main/src/assets/ToDoApp.png?raw=true",
+    description:
+      "This project is a ToDo application built using React, React Local Storage, and Bootstrap. Users can efficiently manage their tasks within the application, creating, organizing, and deleting tasks as needed. With React Local Storage, task data is stored locally in the user's browser, ensuring persistence even after refreshing or closing the browser. The clean and responsive user interface, styled with Bootstrap, enhances usability and allows users to navigate and interact with their tasks easily. The app prioritizes user-friendly design, enabling intuitive task management and organization by priority, due dates, or categories. This project serves as a practical example for learning React development, showcasing essential features for building functional ToDo applications.",
+    webSite: "https:/todoapp-cihan.netlify.app/",
     gitGubLink:
       "https://github.com/cihanbagriyanik/ToDo_App_with_React_react-local_storage-bootstrap",
     readme:
@@ -311,8 +323,10 @@ export const portfolio = [
     id: 7,
     projectName: "NBA Legends App",
     LibrariesAndTech: "React.js | React-Dom | Bootstarp",
-    img: "", //!-------------------------------------
-    webSite: "nbalegends-cihan.netlify.app",
+    img: "https://github.com/cihanbagriyanik/cihanbag/blob/main/src/assets/NBALegendsApp.png?raw=true",
+    description:
+      "This project is a NBA Legends application built with React and Bootstrap. It allows users to explore detailed information about legendary basketball players from NBA history. Leveraging React and Bootstrap, the app offers a visually appealing and user-friendly interface. Users can easily search for specific players and navigate through player profiles to learn about their career highlights and achievements.",
+    webSite: "https://nbalegends-cihan.netlify.app/",
     gitGubLink:
       "https://github.com/cihanbagriyanik/NBA_Legends_App_react-bootstrap",
     readme:
@@ -322,8 +336,10 @@ export const portfolio = [
     id: 8,
     projectName: "Horoscope App",
     LibrariesAndTech: "React.js | React-Dom | Bootstrap | SASS",
-    img: "", //!-------------------------------------
-    webSite: "horoscopeapp-cihan.netlify.app",
+    img: "https://github.com/cihanbagriyanik/cihanbag/blob/main/src/assets/HoroscopeApp.png?raw=true",
+    description:
+      "This project is a Horoscope application developed using React, Sass, and Bootstrap. Users can explore their daily horoscope predictions and personalized astrological insights within the app. Leveraging React for dynamic rendering, Sass for styling, and Bootstrap for responsive design, the app offers a visually appealing and user-friendly interface. Users can easily navigate through different horoscope categories and receive accurate astrological forecasts. This project serves as a practical example for learning React development and showcases the integration of Sass and Bootstrap for building stylish and functional web applications.",
+    webSite: "https://horoscopeapp-cihan.netlify.app/",
     gitGubLink:
       "https://github.com/cihanbagriyanik/Horoscope_App_react-sass-bootstrap",
     readme:
@@ -333,8 +349,10 @@ export const portfolio = [
     id: 9,
     projectName: "Weather App",
     LibrariesAndTech: " HTML | CSS | JavaScript | Local Storage",
-    img: "",
-    webSite: "cihanbagriyanik.github.io/WeatherApp_html-css-js/",
+    img: "https://github.com/cihanbagriyanik/cihanbag/blob/main/src/assets/WeatherApp.png?raw=true",
+    description:
+      "This project is a Weather application built with HTML, CSS, and JavaScript. Users can check the current weather conditions and forecasts for various locations. The app provides real-time weather data, including temperature, humidity, wind speed, and more. With a simple and intuitive interface, users can easily search for locations and view detailed weather information. This project serves as a practical example for learning web development fundamentals and demonstrates how to integrate weather APIs to create dynamic and informative web applications.",
+    webSite: "https://cihanbagriyanik.github.io/WeatherApp_html-css-js/",
     gitGubLink: "https://github.com/cihanbagriyanik/WeatherApp_html-css-js",
     readme: "",
   },
@@ -342,7 +360,9 @@ export const portfolio = [
     id: 10,
     projectName: "iOS Calculator",
     LibrariesAndTech: "HTML | CSS | JavaScript",
-    img: "", //!-------------------------------------
+    img: "https://github.com/cihanbagriyanik/cihanbag/blob/main/src/assets/iOSCalculator.png?raw=true",
+    description:
+      "This project is an iOS-style calculator built with HTML, CSS, and JavaScript. It emulates the functionality and design of the native iOS calculator app, allowing users to perform basic arithmetic operations. With a familiar interface, users can input numbers and perform calculations just like on their iOS devices. The app offers a responsive layout and interactive buttons for an intuitive user experience. This project serves as a practical example for learning front-end web development and demonstrates how to create interactive user interfaces with HTML, CSS, and JavaScript.",
     webSite: "https://cihanbagriyanik.github.io/iOS-Calculator_html-css-js/",
     gitGubLink: "https://github.com/cihanbagriyanik/iOS-Calculator_html-css-js",
     readme: "",
@@ -351,7 +371,9 @@ export const portfolio = [
     id: 11,
     projectName: "Stone-Paper-Scissors Game",
     LibrariesAndTech: "HTML | CSS | JavaScript",
-    img: "", //!-------------------------------------
+    img: "https://github.com/cihanbagriyanik/cihanbag/blob/main/src/assets/Stone-Paper-Scissors.png?raw=true",
+    description:
+      "This project is a Stone Paper Scissors game implemented using HTML, CSS, and JavaScript. Players can compete against the computer by selecting one of the three options: stone, paper, or scissors. The game features interactive buttons and a simple user interface, allowing players to make their choices easily. With dynamic JavaScript logic, the game determines the winner based on the selected moves. This project serves as a fun example for learning front-end web development and demonstrates how to create interactive games using basic web technologies.",
     webSite:
       "https://cihanbagriyanik.github.io/Stone_Paper_Scissors_html-css-js/",
     gitGubLink:
@@ -362,9 +384,11 @@ export const portfolio = [
     id: 12,
     projectName: "Technology",
     LibrariesAndTech: " HTML | SASS | Responsive Desing",
-    img: "", //!-------------------------------------
+    img: "https://github.com/cihanbagriyanik/cihanbag/blob/main/src/assets/Technology.png?raw=true",
+    description:
+      "In this project, I created a responsive IT course website template using HTML and Sass. The website features a modern and user-friendly design, ensuring optimal viewing on various devices. The project employs Sass for enhanced styling, providing a structured and maintainable codebase. Feel free to explore the repository for a hands-on experience with web development and Sass styling techniques.",
     webSite:
-      "cihanbagriyanik.github.io/Technology-Responsive-Website_html-sass/ ",
+      "https://cihanbagriyanik.github.io/Technology-Responsive-Website_html-sass/",
     gitGubLink:
       "https://github.com/cihanbagriyanik/Technology-Responsive-Website_html-sass",
     readme: "",

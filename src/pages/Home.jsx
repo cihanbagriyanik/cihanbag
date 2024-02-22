@@ -25,7 +25,6 @@ const Home = () => {
       <Box>
         <Box
           sx={{
-            // border: "1px solid red",
             display: "flex",
             justifyContent: "space-around",
             alignItems: "center",
