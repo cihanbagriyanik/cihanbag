@@ -37,18 +37,18 @@ const AboutMe = () => {
             fontFamily={"girassol"}
             sx={{ fontSize: "1.2rem", marginTop: "1rem", marginLeft: "1rem" }}
           >
-            With years of experience in graphic and web design I have mastered
+            &emsp;&emsp;With years of experience in web design I have mastered
             the skills of understanding client requirements according to the
             latest trends. I have worked with businesses from different niches
             so you can rely on me for yours.
             <br />
-            <br />I have spent most of these years working across different
-            areas of design like front-end development, landing pages, email
-            design, app UI/UX, to my current role designing products for mobile
-            platforms. Having worked on various projects that are already live,
-            I can help you with the best possible suggestions and ideas that we
-            can proceed with. With me, you are not forced to accept anything. I
-            give you a variety of options we can work on together.
+            <br />
+            &emsp;&emsp;I have spent most of these years working across
+            different areas of design like front-end development, landing pages,
+            email design. Having worked on various projects that are already
+            live, I can help you with the best possible suggestions and ideas
+            that we can proceed with. With me, you are not forced to accept
+            anything. I give you a variety of options we can work on together.
           </Typography>
         </Box>
       </Box>

@@ -235,14 +235,148 @@ export const skillsData = [
   //   },
 ];
 
-// export const portfolio = [
-//   {
-//     id: 1,
-//     projectName: "",
-//     LibrariesAndTech: "",
-//     img: "",
-//     webSite: "",
-//     gitGubLink: "",
-//     readme: "",
-//   },
-// ];
+export const portfolio = [
+  {
+    id: 1,
+    projectName: "Blog App",
+    LibrariesAndTech:
+      "React.js | TypeScript | React-Router |  Material-UI | React-Redux | Axios | Redux-Persist | Toastify | Formik-Yup | Vite",
+    img: "", //!-------------------------------------
+    webSite: "blog-app-cihan.vercel.app/",
+    gitGubLink:
+      "https://github.com/cihanbagriyanik/Milestone-_BlogApp_react-ts-vite-mui-redux-formik-yup",
+    readme:
+      "https://github.com/cihanbagriyanik/Milestone-_BlogApp_react-ts-vite-mui-redux-formik-yup/blob/main/README.md",
+  },
+  {
+    id: 2,
+    projectName: "Stock Management App",
+    LibrariesAndTech:
+      "React.js | React-Router |  Material-UI | React-Redux | Axios | Redux-Persist | Tremor | Toastify | Formik-Yup | Vite",
+    img: "", //!-------------------------------------
+    webSite: "stock-management-app-cihan.vercel.app/",
+    gitGubLink:
+      "https://github.com/cihanbagriyanik/Stock_Management_App_react-redux-formik-yup",
+    readme:
+      "https://github.com/cihanbagriyanik/Stock_Management_App_react-redux-formik-yup/blob/main/README.md",
+  },
+  {
+    id: 3,
+    projectName: "Movie App(IMDb-D)",
+    LibrariesAndTech:
+      "React.js | React-Router | React-Dom | Hooks | Firebase | Auth | Axios | Tailwind | Toastify ",
+    img: "", //!-------------------------------------
+    webSite: "movie-app-imdb-d.netlify.app/",
+    gitGubLink:
+      "https://github.com/cihanbagriyanik/Movie_App-IMDB-D-_react-tailwind-firebase-toastify",
+    readme:
+      "https://github.com/cihanbagriyanik/Movie_App-IMDB-D-_react-tailwind-firebase-toastify/blob/main/README.md",
+  },
+  {
+    id: 4,
+    projectName: "Recipe App",
+    LibrariesAndTech:
+      "React.js | React-Router | React-Dom | Hooks | Context | Axios | Styled Components | React-Bootstrap ",
+    img: "", //!-------------------------------------
+    webSite: "recipeapp-cihan.netlify.app",
+    gitGubLink:
+      "https://github.com/cihanbagriyanik/Recipe_App_react-router-context-styledComponents",
+    readme:
+      "https://github.com/cihanbagriyanik/Recipe_App_react-router-context-styledComponents/blob/main/README.md",
+  },
+  {
+    id: 5,
+    projectName: "Shopping Card",
+    LibrariesAndTech:
+      "React.js  | React-Router | React-Dom | Hooks | Axios | Mock API | Bootstrap",
+    img: "", //!-------------------------------------
+    webSite: "shoppingcard-cihan.netlify.app",
+    gitGubLink:
+      "https://github.com/cihanbagriyanik/Shopping_Card_react-axios-hooks-router-mockapi",
+    readme:
+      "https://github.com/cihanbagriyanik/Shopping_Card_react-axios-hooks-router-mockapi/blob/main/README.md",
+  },
+  {
+    id: 6,
+    projectName: "ToDo App",
+    LibrariesAndTech: "React.js | React-Dom | Local Storage | UUID | Bootstarp",
+    img: "", //!-------------------------------------
+    webSite: "todoapp-cihan.netlify.app",
+    gitGubLink:
+      "https://github.com/cihanbagriyanik/ToDo_App_with_React_react-local_storage-bootstrap",
+    readme:
+      "https://github.com/cihanbagriyanik/ToDo_App_with_React_react-local_storage-bootstrap/blob/main/README.md",
+  },
+  {
+    id: 7,
+    projectName: "NBA Legends App",
+    LibrariesAndTech: "React.js | React-Dom | Bootstarp",
+    img: "", //!-------------------------------------
+    webSite: "nbalegends-cihan.netlify.app",
+    gitGubLink:
+      "https://github.com/cihanbagriyanik/NBA_Legends_App_react-bootstrap",
+    readme:
+      "https://github.com/cihanbagriyanik/NBA_Legends_App_react-bootstrap/blob/main/README.md",
+  },
+  {
+    id: 8,
+    projectName: "Horoscope App",
+    LibrariesAndTech: "React.js | React-Dom | Bootstrap | SASS",
+    img: "", //!-------------------------------------
+    webSite: "horoscopeapp-cihan.netlify.app",
+    gitGubLink:
+      "https://github.com/cihanbagriyanik/Horoscope_App_react-sass-bootstrap",
+    readme:
+      "https://github.com/cihanbagriyanik/Horoscope_App_react-sass-bootstrap/blob/main/README.md",
+  },
+  {
+    id: 9,
+    projectName: "Weather App",
+    LibrariesAndTech: " HTML | CSS | JavaScript | Local Storage",
+    img: "",
+    webSite: "cihanbagriyanik.github.io/WeatherApp_html-css-js/",
+    gitGubLink: "https://github.com/cihanbagriyanik/WeatherApp_html-css-js",
+    readme: "",
+  },
+  {
+    id: 10,
+    projectName: "iOS Calculator",
+    LibrariesAndTech: "HTML | CSS | JavaScript",
+    img: "", //!-------------------------------------
+    webSite: "https://cihanbagriyanik.github.io/iOS-Calculator_html-css-js/",
+    gitGubLink: "https://github.com/cihanbagriyanik/iOS-Calculator_html-css-js",
+    readme: "",
+  },
+  {
+    id: 11,
+    projectName: "Stone-Paper-Scissors Game",
+    LibrariesAndTech: "HTML | CSS | JavaScript",
+    img: "", //!-------------------------------------
+    webSite:
+      "https://cihanbagriyanik.github.io/Stone_Paper_Scissors_html-css-js/",
+    gitGubLink:
+      "https://github.com/cihanbagriyanik/Stone_Paper_Scissors_html-css-js",
+    readme: "",
+  },
+  {
+    id: 12,
+    projectName: "Technology",
+    LibrariesAndTech: " HTML | SASS | Responsive Desing",
+    img: "", //!-------------------------------------
+    webSite:
+      "cihanbagriyanik.github.io/Technology-Responsive-Website_html-sass/ ",
+    gitGubLink:
+      "https://github.com/cihanbagriyanik/Technology-Responsive-Website_html-sass",
+    readme: "",
+  },
+
+  // {
+  //   id: 0,
+  //   projectName: "",
+  //   LibrariesAndTech: "",
+  //   img: "",
+  //   webSite: "",
+  //   gitGubLink: "",
+  //   readme: "",
+  // },
+];
