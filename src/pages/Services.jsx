@@ -1,9 +1,12 @@
-
+import { Box } from "@mui/material";
+import WhatIDo from "../components/WhatIDo";
 
 const Services = () => {
   return (
-    <div>Services</div>
-  )
-}
+    <Box>
+      <WhatIDo />
+    </Box>
+  );
+};
 
-export default Services
+export default Services;

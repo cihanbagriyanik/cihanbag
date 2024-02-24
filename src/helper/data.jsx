@@ -439,3 +439,24 @@ export const experinceData = [
       "I was at the head of a company actively working in the construction sectors. We withdrew from the market due to intense competition in this sector and successfully entered the medical field after completing certain projects.",
   },
 ];
+
+export const whatIDoData = [
+  {
+    id: 1,
+    service: "Frontend Developer",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, officiis? Facilis harum aliquid voluptate reiciendis neque nam! Illo officia expedita iusto architecto ad, ipsum eveniet minima, error possimus, accusantium voluptas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam molestiae libero illo, animi quia maiores suscipit commodi magnam, natus corrupti numquam dolore exercitationem accusamus corporis voluptas voluptates rem a rerum?",
+  },
+  {
+    id: 2,
+    service: "Backend Developer",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, officiis? Facilis harum aliquid voluptate reiciendis neque nam! Illo officia expedita iusto architecto ad, ipsum eveniet minima, error possimus, accusantium voluptas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam molestiae libero illo, animi quia maiores suscipit commodi magnam, natus corrupti numquam dolore exercitationem accusamus corporis voluptas voluptates rem a rerum?",
+  },
+  {
+    id: 3,
+    service: "Responsive Web Design",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, officiis? Facilis harum aliquid voluptate reiciendis neque nam! Illo officia expedita iusto architecto ad, ipsum eveniet minima, error possimus, accusantium voluptas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam molestiae libero illo, animi quia maiores suscipit commodi magnam, natus corrupti numquam dolore exercitationem accusamus corporis voluptas voluptates rem a rerum?",
+  },
+];
