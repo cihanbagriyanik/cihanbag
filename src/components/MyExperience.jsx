@@ -14,7 +14,7 @@ const MyExperience = () => {
           fontFamily={"girassol"}
           color={"#0B58BE"}
         >
-          Experince
+          Experience
         </Typography>
         {experinceData.map((x) => {
           return (
