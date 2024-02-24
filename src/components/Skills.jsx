@@ -25,7 +25,7 @@ const Skills = () => {
       <Container>
         <Typography
           sx={{ fontWeight: "bold", marginBottom: "2rem" }}
-          variant="h6"
+          variant="h5"
           fontFamily={"girassol"}
           color={"#0B58BE"}
         >

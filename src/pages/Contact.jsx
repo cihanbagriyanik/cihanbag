@@ -1,9 +1,12 @@
-
+import { Box } from "@mui/material";
+import ContactForm from "../components/ContactForm";
 
 const Contact = () => {
   return (
-    <div style={{height:"30rem"}} >Contact</div>
-  )
-}
+    <Box sx={{ margin: "4rem 3rem 5rem" }}>
+      <ContactForm />
+    </Box>
+  );
+};
 
-export default Contact
+export default Contact;

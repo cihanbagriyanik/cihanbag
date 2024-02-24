@@ -6,7 +6,7 @@ const AboutMe = () => {
       <Box>
         <Typography
           sx={{ fontWeight: "bold" }}
-          variant="h6"
+          variant="h5"
           fontFamily={"girassol"}
           color={"#0B58BE"}
         >
