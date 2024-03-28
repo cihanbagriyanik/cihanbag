@@ -15,7 +15,9 @@ const Social = () => {
   return (
     <Container>
       <ListItemText
-        sx={{ my: 0 }}
+        sx={{
+          my: 0,
+        }}
         primary="Social"
         primaryTypographyProps={{
           fontSize: 20,

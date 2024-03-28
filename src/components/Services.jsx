@@ -10,7 +10,15 @@ const StyledListItem = styled(ListItem)(({ theme }) => ({
 
 const Services = () => {
   return (
-    <Container>
+    <Container
+      sx={
+        {
+          // "@media (max-width:460px)": {
+          //   display: "none",
+          // },
+        }
+      }
+    >
       <ListItemText
         sx={{ my: 0 }}
         primary="Services"

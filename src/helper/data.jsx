@@ -238,13 +238,13 @@ export const skillsData = [
 export const portfolioData = [
   {
     id: 1,
-    projectName: "Blog App",
+    projectName: "Blog App (Full Stack)",
     LibrariesAndTech:
       "React.js | TypeScript | React-Router |  Material-UI | React-Redux | Axios | Redux-Persist | Toastify | Formik-Yup | Vite",
     img: "https://github.com/cihanbagriyanik/cihanbag/blob/main/src/assets/BlogApp.png?raw=true",
     description:
-      "This web application reflects my interest in modern web development. It's built with React, TypeScript, and Vite, providing users with a seamless blogging experience. The interface is designed using Material-UI, ensuring an attractive and responsive design. Efficient state management is achieved with Redux Toolkit, enabling smooth operation whether users are creating, editing, or deleting posts. Formik and Yup ensure reliable form handling, while Axios facilitates smooth API interactions. This project serves as a showcase of modern web development techniques, demonstrating the integration of various tools to create a feature-rich and performant web application.",
-    webSite: "https://blog-app-cihan.vercel.app/",
+      "Blog App is a web application that reflects my interest in modern web development. Built with React, TypeScript, and Vite, it offers a straightforward blogging experience. The interface is designed using Material-UI, and state management is handled efficiently with Redux Toolkit. Whether it's creating, editing, or deleting posts, the process is user-friendly. Formik and Yup ensure reliable form handling, and Axios is used for smooth API interactions in frontend and the backend is a Node.js-based REST server tailored for managing blog-related operations. It facilitates functionalities like creating, reading, updating, and deleting blogs, categories, and comments. Additionally, nodemailer is integrated for email functionality. Utilizing Express.js for API routing, Mongoose for mongoDB, middleware for computations and JWT for authentication, it ensures secure API access.",
+    webSite: "https://blog-app-cihann.vercel.app/",
     gitGubLink:
       "https://github.com/cihanbagriyanik/Milestone-_BlogApp_react-ts-vite-mui-redux-formik-yup",
     readme:
@@ -252,12 +252,12 @@ export const portfolioData = [
   },
   {
     id: 2,
-    projectName: "Stock Management App",
+    projectName: "Stock Management App (Full Stack)",
     LibrariesAndTech:
       "React.js | React-Router |  Material-UI | React-Redux | Axios | Redux-Persist | Tremor | Toastify | Formik-Yup | Vite",
     img: "https://github.com/cihanbagriyanik/cihanbag/blob/main/src/assets/StockApp.png?raw=true",
     description:
-      "This online single-page web application empowers users to efficiently manage orders and inventory. With features to get, add, edit, or delete products, firms, categories, brands, sales, and purchases, users can seamlessly handle various aspects of stock management. The application consumes APIs to ensure real-time data synchronization and accuracy. Technical Stack: HTML, CSS, JavaScript, React, Redux, Formik, Yup, Material UI.",
+      "Stock App is an online single page web application that enables you to manage orders and inventory with ability to get, add, edit, or delete products, firms, categories, brands, sales, purchases and by consuming APIs. Technical Stack: HTML, CSS, JavaScript, React, Redux and MaterialUI in frontend and the backend is a Node.js based REST API server providing CRUD APIs for managing inventory and orders, including products, firms, categories, brands, sales, and purchases. It utilizes Express.js for API routing, Mongoose for MongoDB, middleware for computations and JWT for authentication and authorization.",
     webSite: "https://stock-management-app-cihan.vercel.app/",
     gitGubLink:
       "https://github.com/cihanbagriyanik/Stock_Management_App_react-redux-formik-yup",
@@ -445,18 +445,18 @@ export const whatIDoData = [
     id: 1,
     service: "Frontend Developer",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, officiis? Facilis harum aliquid voluptate reiciendis neque nam! Illo officia expedita iusto architecto ad, ipsum eveniet minima, error possimus, accusantium voluptas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam molestiae libero illo, animi quia maiores suscipit commodi magnam, natus corrupti numquam dolore exercitationem accusamus corporis voluptas voluptates rem a rerum?",
+      "As a frontend developer, I utilize technologies like HTML, CSS, and JavaScript to shape and influence the user's web experience. By crafting user-friendly interfaces, I assist brands in effectively showcasing their stories, products, and services. I enhance digital assets by ensuring users have visually stunning and interactive experiences, thereby empowering brands and increasing conversions.",
   },
   {
     id: 2,
     service: "Backend Developer",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, officiis? Facilis harum aliquid voluptate reiciendis neque nam! Illo officia expedita iusto architecto ad, ipsum eveniet minima, error possimus, accusantium voluptas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam molestiae libero illo, animi quia maiores suscipit commodi magnam, natus corrupti numquam dolore exercitationem accusamus corporis voluptas voluptates rem a rerum?",
+      "In my role as a backend developer, I construct the foundational structures that ensure web applications operate securely, swiftly, and efficiently. Through the development of critical processes such as database management, user authentication, and server administration, I fortify brands' online presence and facilitate seamless user experiences. With my strong coding and problem-solving skills, I adeptly manage complex projects, contributing to the success of brands.",
   },
   {
     id: 3,
     service: "Responsive Web Design",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, officiis? Facilis harum aliquid voluptate reiciendis neque nam! Illo officia expedita iusto architecto ad, ipsum eveniet minima, error possimus, accusantium voluptas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam molestiae libero illo, animi quia maiores suscipit commodi magnam, natus corrupti numquam dolore exercitationem accusamus corporis voluptas voluptates rem a rerum?",
+      "My expertise in responsive web design enables web pages and applications to seamlessly adapt to various devices and screen sizes. By ensuring flawless experiences across desktops, tablets, and smartphones, I enhance brand interaction and optimize conversion rates. My designs not only captivate users with visually stunning and user-friendly interfaces but also contribute to brands' success by providing exceptional digital experiences.",
   },
 ];

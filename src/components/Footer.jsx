@@ -2,7 +2,6 @@ import { Box, Link, Typography } from "@mui/material";
 import Services from "./Services";
 import Social from "./Social";
 
-
 const Footer = () => {
   return (
     <Box
@@ -17,10 +16,24 @@ const Footer = () => {
           justifyContent: "space-between",
           alignItems: "center",
           padding: "1rem 3rem  1.5rem",
+          "@media (max-width:750px)": {
+            flexDirection: "column-reverse",
+          },
         }}
       >
         <Box>
-          <Typography sx={{ fontSize: "1.5rem", paddingBottom: "1rem" }}>
+          <Typography
+            sx={{
+              fontSize: "1.5rem",
+              paddingBottom: "1rem",
+              "@media (max-width:500px)": {
+                fontSize: "1rem",
+              },
+              "@media (max-width:750px)": {
+                marginTop: "1rem",
+              },
+            }}
+          >
             Based in Munich, working worldwide.
           </Typography>
 
@@ -29,6 +42,9 @@ const Footer = () => {
               textDecoration: "underline",
               color: "white",
               fontSize: "2.5rem",
+              "@media (max-width:500px)": {
+                fontSize: "1.5rem",
+              },
             }}
             href="/contact"
           >
@@ -41,6 +57,10 @@ const Footer = () => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
+            "@media (max-width:460px)": {
+              flexDirection: "column",
+              gap: 1,
+            },
           }}
         >
           <Box>
@@ -53,7 +73,15 @@ const Footer = () => {
         </Box>
       </Box>
       <Box>
-        <Typography sx={{ textAlign: "center", paddingBottom: "0.7rem" }}>
+        <Typography
+          sx={{
+            textAlign: "center",
+            paddingBottom: "0.7rem",
+            "@media (max-width:450px)": {
+              fontSize: "0.75rem",
+            },
+          }}
+        >
           Copyright © {new Date().getFullYear()} Cihan Bagriyanik | Powered by
           Cihan Bagriyanik
         </Typography>

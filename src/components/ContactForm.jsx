@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { TextField, Button, Grid, Typography } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import Social from "./Social";
 
 const theme = createTheme({
   palette: {

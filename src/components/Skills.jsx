@@ -57,9 +57,21 @@ const Skills = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          "@media (max-width:500px)": {
+            flexDirection: "column",
+            width: "80%",
+          },
         }}
       >
-        <List sx={{ width: "50%" }}>
+        <List
+          sx={{
+            width: "50%",
+            "@media (max-width:500px)": {
+              // flexDirection: "column",
+              width: "100%",
+            },
+          }}
+        >
           <ListItem>
             <StyledListItemText primary="JavaScript" />
           </ListItem>
@@ -76,7 +88,15 @@ const Skills = () => {
             <StyledListItemText primary="MaterialUI" />
           </ListItem>
         </List>
-        <List sx={{ width: "50%" }}>
+        <List
+          sx={{
+            width: "50%",
+            "@media (max-width:500px)": {
+              // flexDirection: "column",
+              width: "100%",
+            },
+          }}
+        >
           <ListItem>
             <StyledListItemText primary="Node.js" />
           </ListItem>
@@ -87,10 +107,10 @@ const Skills = () => {
             <StyledListItemText primary="Java" />
           </ListItem>
           <ListItem>
-            <StyledListItemText primary="MongoDB" />
+            <StyledListItemText primary="MongoDB and SQL" />
           </ListItem>
           <ListItem>
-            <StyledListItemText primary="Mongoose" />
+            <StyledListItemText primary="Next.js" />
           </ListItem>
         </List>
       </Container>

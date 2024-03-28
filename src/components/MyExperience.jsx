@@ -25,14 +25,28 @@ const MyExperience = () => {
                   sx={{
                     fontFamily: "girassol",
                     fontWeight: "900",
-                    textAlign: { xs: "start", md: "end" },
+                    textAlign: {
+                      xs: "start",
+                      md: "end",
+                      "@media (max-width:500px)": {
+                        fontSize: "0.9rem",
+                      },
+                    },
                   }}
                 >
                   {x.date}
                 </Typography>
                 <Typography
                   variant="body1"
-                  sx={{ textAlign: { xs: "start", md: "end" } }}
+                  sx={{
+                    textAlign: {
+                      xs: "start",
+                      md: "end",
+                      "@media (max-width:500px)": {
+                        fontSize: "0.9rem",
+                      },
+                    },
+                  }}
                 >
                   {x.company}
                 </Typography>
@@ -54,6 +68,9 @@ const MyExperience = () => {
                     fontWeight: "900",
                     textAlign: "start",
                     marginBottom: "0.7rem",
+                    "@media (max-width:500px)": {
+                      fontSize: "1rem",
+                    },
                   }}
                 >
                   {x.title}
@@ -61,7 +78,12 @@ const MyExperience = () => {
                 <Typography
                   variant="body1"
                   mx={3}
-                  sx={{ marginBottom: "2rem" }}
+                  sx={{
+                    marginBottom: "2rem",
+                    "@media (max-width:500px)": {
+                      fontSize: "0.9rem",
+                    },
+                  }}
                 >
                   {x.description}
                 </Typography>

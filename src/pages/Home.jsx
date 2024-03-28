@@ -80,7 +80,13 @@ const Home = () => {
               src={foto}
               alt=""
               component={"a"}
-              sx={{ width: 200, height: 200 }}
+              sx={{
+                width: 200,
+                height: 200,
+                "@media (max-width:500px)": {
+                  display: "none",
+                },
+              }}
             />
           </Box>
         </Box>
