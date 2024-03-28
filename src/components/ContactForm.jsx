@@ -1,7 +1,14 @@
 import React, { useState } from "react";
-import { TextField, Button, Grid, Typography } from "@mui/material";
+import {
+  TextField,
+  Button,
+  Grid,
+  Typography,
+  Snackbar,
+  Alert,
+} from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import Social from "./Social";
+import { useForm } from "@formspree/react";
 
 const theme = createTheme({
   palette: {
@@ -29,20 +36,28 @@ const ContactForm = () => {
     });
   };
 
-  const handleSubmit = (event) => {
+  const [state, handleSubmit] = useForm("xbjnzgaj");
+  const [snackbarOpen, setSnackbarOpen] = useState(false);
+
+  const handleFormSubmit = async (event) => {
     event.preventDefault();
-    console.log(formData);
 
-    // Burada form verilerini gönderebilirsiniz
+    handleSubmit(event);
 
-    setFormData({
-      firstName: "",
-      lastName: "",
-      companyName: "",
-      email: "",
-      phoneNumber: "",
-      message: "",
-    });
+    if (state.succeeded) {
+      setFormData({
+        firstName: "",
+        lastName: "",
+        companyName: "",
+        email: "",
+        phoneNumber: "",
+        message: "",
+      });
+      setSnackbarOpen(true);
+    }
+  };
+  const handleCloseSnackbar = () => {
+    setSnackbarOpen(false);
   };
 
   return (
@@ -58,7 +73,7 @@ const ContactForm = () => {
           </Typography>
         </Grid>
         <Grid item xs={12} md={6}>
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleFormSubmit} method="POST">
             <Grid container spacing={2}>
               <Grid item xs={6}>
                 <TextField
@@ -139,6 +154,25 @@ const ContactForm = () => {
           </form>
         </Grid>
       </Grid>
+
+      <Snackbar
+        open={snackbarOpen}
+        autoHideDuration={6000}
+        onClose={handleCloseSnackbar}
+        anchorOrigin={{ vertical: "top", horizontal: "center" }}
+        sx={{
+          marginTop: "5rem", // İstediğiniz mesafe değerini burada ayarlayabilirsiniz
+        }}
+      >
+        <Alert
+          onClose={handleCloseSnackbar}
+          severity="success"
+          sx={{ backgroundColor: "#050872", color: "#fff" }}
+        >
+          Your message has been sent successfully. We will get back to you
+          shortly.
+        </Alert>
+      </Snackbar>
     </ThemeProvider>
   );
 };
