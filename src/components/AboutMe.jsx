@@ -5,7 +5,13 @@ const AboutMe = () => {
     <Container sx={{ marginTop: "3rem" }}>
       <Box>
         <Typography
-          sx={{ fontWeight: "bold", marginBottom: "1rem" }}
+          sx={{
+            fontWeight: "bold",
+            marginBottom: "1rem",
+            "@media (max-width:500px)": {
+              fontSize: "1.7rem",
+            },
+          }}
           variant="h4"
           fontFamily={"girassol"}
           color={"#0B58BE"}

@@ -24,7 +24,13 @@ const Skills = () => {
     <Box sx={{ margin: "2rem 0" }}>
       <Container>
         <Typography
-          sx={{ fontWeight: "bold", marginBottom: "2rem" }}
+          sx={{
+            fontWeight: "bold",
+            marginBottom: "2rem",
+            "@media (max-width:500px)": {
+              fontSize: "1.7rem",
+            },
+          }}
           variant="h4"
           fontFamily={"girassol"}
           color={"#0B58BE"}
