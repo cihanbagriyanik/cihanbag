@@ -393,6 +393,19 @@ export const portfolioData = [
       "https://github.com/cihanbagriyanik/Technology-Responsive-Website_html-sass",
     readme: "",
   },
+  {
+    id: 13,
+    projectName: "Netflix App",
+    LibrariesAndTech:
+      " Next.js | React | Redux | Firebase | Tailwind | Toastify",
+    img: "https://github.com/cihanbagriyanik/Netflix_App_react-next.js-redux-firebase-tailwind/assets/132518854/c95622db-0147-4233-8e36-45e5671ad115",
+    description:
+      "In this project, you'll find a Netflix-inspired web application built with React, Next.js, Redux, Firebase, and Tailwind CSS. The project offers a modern and interactive user interface, showcasing the latest trends in web development. With features like server-side rendering and real-time data synchronization, alongside a sleek UI design, it serves as a valuable resource for developers looking to explore advanced web technologies and build dynamic applications.",
+    webSite: "https://nesflix-app-cihan.vercel.app/",
+    gitGubLink:
+      "https://github.com/cihanbagriyanik/Netflix_App_react-next.js-redux-firebase-tailwind",
+    readme: "",
+  },
 
   // {
   //   id: 0,
