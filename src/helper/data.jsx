@@ -421,11 +421,11 @@ export const portfolioData = [
 export const experinceData = [
   {
     id: 1,
-    date: "11/2023 - Present",
+    date: "03/2024 - Present",
     company: "Clarusway",
-    title: "Frontend Developer (Remote)",
+    title: "Fullstack Developer (Remote / Trainee)",
     description:
-      "Collaborated within a 7-member team to develop robust web applications adhering to deadlines 100%. During the coding phase, we crafted over 100 custom components and custom hooks following clean code principles. Our focus on writing modular and reusable code led us to employ advanced build tools and package managers to streamline the development process. We implemented caching using Redux to prevent multiple API calls, which were causing project-wide bugs. Committed to continuous learning, we delved into Computational Thinking, Operating Systems, Linux, Version Control Systems (Git & GitHub), and the Software Development Life Cycle (SDLC). Proficiency in project management methodologies, including SCRUM and Agile, was demonstrated, utilizing JIRA for individual and group project management, contributing to efficient project execution. Technologies utilized include React JS, Typescript, Redux, React Hooks, Tailwind CSS, and Axios.",
+      "Collaborated within a 7-member team to develop robust web applications adhering to deadlines 100%. During the coding phase, we crafted over 100 custom components and custom hooks following clean code principles. Our focus on writing modular and reusable code led us to employ advanced build tools and package managers to streamline the development process. We implemented caching using Redux to prevent multiple API calls, which were causing project-wide bugs. Committed to continuous learning, we delved into Computational Thinking, Operating Systems, Linux, Version Control Systems (Git & GitHub), and the Software Development Life Cycle (SDLC). Proficiency in project management methodologies, including SCRUM and Agile, was demonstrated, utilizing JIRA for individual and group project management, contributing to efficient project execution. Technologies utilized include JavaScript, TypeScript, React.js, Redux, React Hooks, Axios, Node.js, Express.js, MongoDB, Tailwind CSS, Experience with AI technologies.",
   },
   {
     id: 2,
