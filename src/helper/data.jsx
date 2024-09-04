@@ -424,8 +424,36 @@ export const experinceData = [
     date: "04/2024 - Present",
     company: "Vidinli Software",
     title: "Frontend Developer",
-    description:
-      "Collaborated with a team to successfully migrate an existing website from Flutter to React.js. During the coding phase, we designed and developed over 100 custom components and hooks, adhering to clean code principles. Our focus on writing modular and reusable code led us to utilize advanced build tools and package managers to streamline the development process. We optimized the development workflow using Vite for high performance and efficiently managed dependencies with Yarn. \n To resolve project-wide issues and eliminate redundant data loads, we managed API calls using Redux and RTK Query. We also redefined the UI/UX by creating modern and user-friendly design concepts in Figma, which we then implemented. \n Committed to continuous learning, we enhanced our skills in JavaScript, React.js, and related technologies. We demonstrated expertise in project management and collaboration by utilizing JIRA and Agile methodologies to ensure efficient project execution. \n Key technologies used in this project included JavaScript, TypeScript, React, Redux, RTK Query, React Hooks, Axios, Vite, Yarn, and MaterialUI.",
+    description: (
+      <>
+        <p>
+          Collaborated with a team to successfully migrate an existing website
+          from Flutter to React.js. During the coding phase, we designed and
+          developed over 100 custom components and hooks, adhering to clean code
+          principles. Our focus on writing modular and reusable code led us to
+          utilize advanced build tools and package managers to streamline the
+          development process. We optimized the development workflow using Vite
+          for high performance and efficiently managed dependencies with Yarn.
+        </p>
+        <p>
+          To resolve project-wide issues and eliminate redundant data loads, we
+          managed API calls using Redux and RTK Query. We also redefined the
+          UI/UX by creating modern and user-friendly design concepts in Figma,
+          which we then implemented.
+        </p>
+        <p>
+          Committed to continuous learning, we enhanced our skills in
+          JavaScript, React.js, and related technologies. We demonstrated
+          expertise in project management and collaboration by utilizing JIRA
+          and Agile methodologies to ensure efficient project execution.
+        </p>
+        <p>
+          Key technologies used in this project included JavaScript, TypeScript,
+          React, Redux, RTK Query, React Hooks, Axios, Vite, Yarn, and
+          MaterialUI.
+        </p>
+      </>
+    ),
   },
   {
     id: 4,
