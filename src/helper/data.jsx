@@ -421,7 +421,7 @@ export const portfolioData = [
 export const experinceData = [
   {
     id: 5,
-    date: "04/2024 - Present",
+    date: "08/2024 - Present",
     company: "Vidinli Software",
     title: "Frontend Developer",
     description: (
