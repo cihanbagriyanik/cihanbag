@@ -420,15 +420,23 @@ export const portfolioData = [
 
 export const experinceData = [
   {
-    id: 1,
-    date: "03/2024 - Present",
+    id: 5,
+    date: "04/2024 - Present",
+    company: "Vidinli Software",
+    title: "Frontend Developer",
+    description:
+      "Collaborated with a team to successfully migrate an existing website from Flutter to React.js. During the coding phase, we designed and developed over 100 custom components and hooks, adhering to clean code principles. Our focus on writing modular and reusable code led us to utilize advanced build tools and package managers to streamline the development process. We optimized the development workflow using Vite for high performance and efficiently managed dependencies with Yarn. \n To resolve project-wide issues and eliminate redundant data loads, we managed API calls using Redux and RTK Query. We also redefined the UI/UX by creating modern and user-friendly design concepts in Figma, which we then implemented. \n Committed to continuous learning, we enhanced our skills in JavaScript, React.js, and related technologies. We demonstrated expertise in project management and collaboration by utilizing JIRA and Agile methodologies to ensure efficient project execution. \n Key technologies used in this project included JavaScript, TypeScript, React, Redux, RTK Query, React Hooks, Axios, Vite, Yarn, and MaterialUI.",
+  },
+  {
+    id: 4,
+    date: "03/2024 - 08/2024",
     company: "Clarusway (USA)",
     title: "Fullstack Developer (Remote / Trainee)",
     description:
       "Collaborated within a 7-member team to develop robust web applications adhering to deadlines 100%. During the coding phase, we crafted over 100 custom components and custom hooks following clean code principles. Our focus on writing modular and reusable code led us to employ advanced build tools and package managers to streamline the development process. We implemented caching using Redux to prevent multiple API calls, which were causing project-wide bugs. Committed to continuous learning, we delved into Computational Thinking, Operating Systems, Linux, Version Control Systems (Git & GitHub), and the Software Development Life Cycle (SDLC). Proficiency in project management methodologies, including SCRUM and Agile, was demonstrated, utilizing JIRA for individual and group project management, contributing to efficient project execution. Technologies utilized include JavaScript, TypeScript, React.js, Redux, React Hooks, Axios, Node.js, Express.js, MongoDB, Tailwind CSS, Experience with AI technologies.",
   },
   {
-    id: 2,
+    id: 3,
     date: "11/2020 - 12/2022",
     company: "Nesche Logistic and Online Shop",
     title: "Founder",
@@ -436,7 +444,7 @@ export const experinceData = [
       "Motivated by the desire to consolidate my various online sales from different platforms, I embarked on the journey of creating my own website. As I delved deeper into this process, I found myself increasingly engrossed in learning coding. With each new skill acquired, my fascination grew, ultimately leading me to make the decision to transition to a new career path.",
   },
   {
-    id: 3,
+    id: 2,
     date: "10/2015 - 03/2017",
     company: "Saphire Surgical Equipment",
     title: "Founder",
@@ -444,7 +452,7 @@ export const experinceData = [
       "Managed the development of a comprehensive website for a venture focused on manufacturing surgical tools in the medical sector. Created this website for the company, contributing a 350% increase in company value through this effort and gaining firsthand experience of the power of my software.",
   },
   {
-    id: 4,
+    id: 1,
     date: "11/2012 - 03/2016",
     company: "Bayramoglu Construction",
     title: "Co – Founder",
