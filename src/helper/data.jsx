@@ -15,7 +15,7 @@ export const skillsData = [
     id: 3,
     name: "JS",
     link: "https://www.w3schools.com/js/",
-    logo: "https://cdn.icon-icons.com/icons2/2108/PNG/512/javascript_icon_130900.png",
+    logo: "https://banner2.cleanpng.com/20180810/fvl/6bd4cdb9e3c7f6de90a42593ee8817a1.webp",
   },
   {
     id: 4,
@@ -51,7 +51,7 @@ export const skillsData = [
     id: 9,
     name: "React",
     link: "https://react.dev/",
-    logo: "https://cdn.icon-icons.com/icons2/2415/PNG/512/react_original_wordmark_logo_icon_146375.png",
+    logo: "https://cdn0.iconfinder.com/data/icons/logos-brands-in-colors/128/react-1024.png",
   },
   {
     id: 10,
@@ -81,13 +81,13 @@ export const skillsData = [
     id: 14,
     name: "Bootstrap",
     link: "https://getbootstrap.com/",
-    logo: "https://user-images.githubusercontent.com/25181517/183898054-b3d693d4-dafb-4808-a509-bab54cf5de34.png",
+    logo: "https://camo.githubusercontent.com/ecd695fb1ffadab6633f9fcdffaeebc58f3cca722260f0dec7dc607bd9d0e740/68747470733a2f2f676574626f6f7473747261702e636f6d2f646f63732f352e322f6173736574732f6272616e642f626f6f7473747261702d6c6f676f2d736861646f772e706e67",
   },
   {
     id: 15,
     name: "MaterialUI",
     link: "https://mui.com/",
-    logo: "https://user-images.githubusercontent.com/25181517/189716630-fe6c084c-6c66-43af-aa49-64c8aea4a5c2.png",
+    logo: "https://img.icons8.com/?size=100&id=gFw7X5Tbl3ss&format=png&color=000000",
   },
   {
     id: 16,
@@ -129,7 +129,7 @@ export const skillsData = [
     id: 22,
     name: "Firebase",
     link: "https://firebase.google.com/",
-    logo: "https://user-images.githubusercontent.com/25181517/189716855-2c69ca7a-5149-4647-936d-780610911353.png",
+    logo: "https://firebase.google.com/static/images/brand-guidelines/logo-vertical.png",
   },
   {
     id: 23,
@@ -153,7 +153,7 @@ export const skillsData = [
     id: 26,
     name: "MySQL",
     link: "https://www.mysql.com/",
-    logo: "https://play-lh.googleusercontent.com/F0Em-ga_FGii0QldqHlADIE9GYnR3HBG0UxzrxI2UbSaFKYqXcO3h0ndLh83dMEvEg",
+    logo: "https://cdn.iconscout.com/icon/free/png-512/free-mysql-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-3030165.png?f=webp&w=512",
   },
   {
     id: 27,
@@ -165,7 +165,7 @@ export const skillsData = [
     id: 28,
     name: "SQLite",
     link: "https://www.sqlite.org/index.html",
-    logo: "https://cdn.icon-icons.com/icons2/2699/PNG/512/sqlite_logo_icon_169724.png",
+    logo: "https://cdn.iconscout.com/icon/free/png-512/free-sqlite-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-6-pack-icons-282687.png?f=webp&w=512",
   },
   {
     id: 29,
@@ -227,6 +227,24 @@ export const skillsData = [
     link: "https://vercel.com/",
     logo: "https://avatars.githubusercontent.com/u/14985020?s=200&v=4",
   },
+      {
+      id: 39,
+      name: "React Bricks",
+      link: "https://www.reactbricks.com/",
+      logo: "https://pic.vsixhub.com/39/88/reactbricks.react-bricks-snippets-logo.webp",
+    },
+      {
+      id: 40,
+      name: "Storyblok",
+      link: "https://www.storyblok.com/",
+      logo: "https://images.seeklogo.com/logo-png/45/1/storyblok-icon-logo-png_seeklogo-453810.png",
+    },
+      {
+      id: 41,
+      name: "Gatsby",
+      link: "https://www.gatsbyjs.com/",
+      logo: "https://cdn.iconscout.com/icon/premium/png-512-thumb/gatsby-11796866-9632971.png?f=webp&w=512",
+    },
   //   {
   //     id: 0,
   //     name: "",
@@ -420,8 +438,41 @@ export const portfolioData = [
 
 export const experinceData = [
   {
+    "id": 6,
+    "date": "11/2024 - Present",
+    "company": "LaVita GmbH",
+    "title": "Frontend Developer",
+    "description": (
+      <>
+        <p>
+          Collaborated with a team to rebuild an existing WordPress-based website
+          using React and React Bricks, ensuring a scalable and maintainable structure.
+          Designed and implemented reusable components and layouts using TypeScript,
+          React, and Tailwind CSS, adhering to clean code principles.
+        </p>
+        <p>
+          Managed state and data fetching efficiently with React Query and Context API,
+          optimizing performance and improving user experience. Deployed and maintained
+          projects on Vercel, leveraging its fast builds and seamless CI/CD workflows.
+          Utilized React Bricks to integrate a flexible, user-friendly CMS solution
+          tailored to client needs.
+        </p>
+        <p>
+          Continuously improved skills in JavaScript, TypeScript, and modern front-end
+          technologies while adhering to best practices in development. Contributed to
+          team collaboration and project management through Agile methodologies,
+          ensuring efficient task tracking and delivery.
+        </p>
+        <p>
+          Key Technologies: JavaScript, TypeScript, React, Gatsby, React Bricks,
+          React Query, Context, NPM, Vercel, Tailwind CSS.
+        </p>
+      </>
+    ),
+  },
+  {
     id: 5,
-    date: "08/2024 - Present",
+    date: "08/2024 - 10/2024",
     company: "Vidinli Software",
     title: "Frontend Developer",
     description: (
