@@ -511,7 +511,7 @@ export const experinceData = [
     {
         id: 3,
         date: "11/2020 - 12/2022",
-        company: "Nesche Logistic and Online Shop",
+        company: "Nesche Logistic and Online Shop (DE)",
         title: "Founder",
         description:
             "Motivated by the desire to consolidate my various online sales from different platforms, I embarked on the journey of creating my own website. As I delved deeper into this process, I found myself increasingly engrossed in learning coding. With each new skill acquired, my fascination grew, ultimately leading me to make the decision to transition to a new career path.",
@@ -519,7 +519,7 @@ export const experinceData = [
     {
         id: 2,
         date: "10/2015 - 03/2017",
-        company: "Saphire Surgical Equipment",
+        company: "Saphire Surgical Equipment (TR)",
         title: "Founder",
         description:
             "Managed the development of a comprehensive website for a venture focused on manufacturing surgical tools in the medical sector. Created this website for the company, contributing a 350% increase in company value through this effort and gaining firsthand experience of the power of my software.",
@@ -527,7 +527,7 @@ export const experinceData = [
     {
         id: 1,
         date: "11/2012 - 03/2016",
-        company: "Bayramoglu Construction",
+        company: "Bayramoglu Construction (TR)",
         title: "Co – Founder",
         description:
             "I was at the head of a company actively working in the construction sectors. We withdrew from the market due to intense competition in this sector and successfully entered the medical field after completing certain projects.",
