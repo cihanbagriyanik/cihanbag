@@ -418,7 +418,7 @@ export const experinceData = [
         id: 6,
         date: "11/2024 - Present",
         company: "LaVita GmbH",
-        title: "Frontend Developer",
+        title: "Frontend Developer (Hybrid)",
         description: (
             <>
                 <p>
@@ -451,7 +451,7 @@ export const experinceData = [
         id: 5,
         date: "08/2024 - 10/2024",
         company: "Vidinli Software",
-        title: "Frontend Developer",
+        title: "Frontend Developer (Remote)",
         description: (
             <>
                 <p>
